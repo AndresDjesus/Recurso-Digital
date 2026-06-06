@@ -17,7 +17,7 @@
                             600: '#4f46e5',
                             700: '#4338ca',
                             900: '#312e81',
-                            950: '#0f172a', // Slate 900 alternativo
+                            950: '#0f172a',
                         }
                     }
                 }
@@ -77,7 +77,7 @@
                     <div>
                         <div class="w-10 h-10 rounded-lg bg-purple-500/10 flex items-center justify-center text-purple-400 mb-4 font-bold">R</div>
                         <h3 class="font-bold text-lg text-white group-hover:text-indigo-400 transition-colors">Reusabilidad</h3>
-                        <p class="text-slate-400 text-xs mt-2 leading-relaxed">Código fuente modular estructurado en repositorio abierto de Git, listo para ser clonado, adaptado y escalado por otros docentes.</p>
+                        <p class="text-slate-400 text-xs mt-2 leading-relaxed">Código fuente modular de software estructurado en repositorio de Git, listo para ser clonado y adaptado por otros desarrolladores.</p>
                     </div>
                 </div>
             </div>
@@ -105,7 +105,7 @@
                         <div class="text-indigo-400 font-bold text-lg">01</div>
                         <div>
                             <h4 class="text-sm font-bold text-white">Arquitecturas Digitales Offline-First</h4>
-                            <p class="text-slate-400 text-xs mt-1">Implementar servidores de contenido local indexado (intranets institucionales) en escuelas rurales o con baja conectividad, asegurando el acceso a recursos didácticos multimedia sin depender del ancho de banda.</p>
+                            <p class="text-slate-400 text-xs mt-1">Implementar servidores de contenido local indexado (intranets institucionales) en escuelas rurales o con baja conectividad, asegurando el acceso a recursos didácticos multimedia sin depender del ancho de banda global.</p>
                         </div>
                     </div>
 
@@ -138,27 +138,30 @@
         <section class="space-y-8">
             <div class="text-center max-w-2xl mx-auto">
                 <h2 class="text-2xl font-bold text-white tracking-tight">Módulos Multimedia Integrados</h2>
-                <p class="text-sm text-slate-400 mt-2">Evidencia práctica del uso combinado de formatos de almacenamiento y procesamiento de datos.</p>
+                <p class="text-sm text-slate-400 mt-2">Evidencia práctica y estable del uso combinado de formatos de procesamiento de datos en streaming.</p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div class="bg-gradient-to-b from-slate-900 to-slate-950 p-6 rounded-2xl border border-slate-800 flex flex-col justify-between shadow-xl shadow-black/40">
-                    <div class="space-y-4">
+                    <div class="space-y-4 mb-6">
                         <div class="flex justify-between items-center">
-                            <span class="text-[10px] font-bold uppercase tracking-wider px-2 py-1 bg-blue-500/10 text-blue-400 rounded border border-blue-500/25">Formato Sonoro</span>
-                            <span class="text-xs text-slate-500 font-mono">MP3 / Audio Digital</span>
+                            <span class="text-[10px] font-bold uppercase tracking-wider px-2 py-1 bg-blue-500/10 text-blue-400 rounded border border-blue-500/25">Formato Sonoro / Podcast</span>
+                            <span class="text-xs text-slate-500 font-mono">YouTube Stream / Voces</span>
                         </div>
                         <div>
-                            <h3 class="text-lg font-bold text-white">Micro-Podcast: Innovación e Inclusión Digital</h3>
-                            <p class="text-slate-400 text-xs mt-1.5 leading-relaxed">Un análisis sintetizado en formato radial que aborda cómo el uso estratégico de tecnologías ligeras permite mitigar el impacto de la brecha digital en regiones vulnerables.</p>
+                            <h3 class="text-lg font-bold text-white">Video-Podcast: Retos de la Alfabetización Tecnológica</h3>
+                            <p class="text-slate-400 text-xs mt-1.5 leading-relaxed">Una mesa de análisis en formato sonoro y de entrevista digital que expone los desafíos prácticos del educador en la mediación de contenidos digitales bajo entornos complejos.</p>
                         </div>
                     </div>
-                    <div class="mt-8 bg-slate-950/80 p-3 rounded-xl border border-slate-800/80">
-                      <audio controls class="w-full opacity-90 contrast-125 mix-blend-screen">
-                      <source src="https://www.archive.org/download/talks-and-education/education_summary.mp3" type="audio/mpeg">
-                    <source src="https://audio.audiomeans.fr/g/6c627f1c9c43/audiomeans-e7e008b4.mp3" type="audio/mpeg">
-                     Tu navegador no soporta el elemento de audio.
-                 </audio>
+                    <div class="aspect-w-16 aspect-h-9 relative overflow-hidden rounded-xl border border-slate-800 bg-slate-950 shadow-inner" style="padding-top: 56.25%;">
+                        <iframe 
+                            class="absolute inset-0 w-full h-full filter brightness-95" 
+                            src="https://www.youtube.com/embed/jf-l2tChn-4?rel=0&modestbranding=1" 
+                            title="Brecha Digital y Sociedad de la Informacion" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            allowfullscreen>
+                        </iframe>
                     </div>
                 </div>
 
@@ -170,7 +173,7 @@
                         </div>
                         <div>
                             <h3 class="text-lg font-bold text-white">Cátedra Abierta: Desigualdad en el Acceso Tecnológico</h3>
-                            <p class="text-slate-400 text-xs mt-1.5 leading-relaxed">Producción audiovisual que ilustra conceptualmente las asimetrías de la sociedad del conocimiento y la necesidad de políticas educativas integrales.</p>
+                            <p class="text-slate-400 text-xs mt-1.5 leading-relaxed">Producción audiovisual de soporte pedagógico que ilustra conceptualmente las asimetrías de la sociedad del conocimiento y el impacto del software modular.</p>
                         </div>
                     </div>
                     <div class="aspect-w-16 aspect-h-9 relative overflow-hidden rounded-xl border border-slate-800 bg-slate-950 shadow-inner" style="padding-top: 56.25%;">
